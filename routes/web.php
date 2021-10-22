@@ -16,3 +16,5 @@ Route::get('/welcome', function () {
 });
 
 Route::get('/dashboard','Dashboard@index');
+Route::get('/dtserver','DataTablesServerSide@index');
+
